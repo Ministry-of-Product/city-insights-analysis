@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_887e1028b6edc72b02c4199586f5dff4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_887e1028b6edc72b02c4199586f5dff4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_887e1028b6edc72b02c4199586f5dff4 = L.map(
+                "map_887e1028b6edc72b02c4199586f5dff4",
+                {
+                    center: [47.6687, -122.3848],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bf6f312ef21bc57a4458cacfb3da93bf = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+            var marker_8e149768c8bd782ce56be50814691be4 = L.marker(
+                [47.66190155, -122.377311937],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_239a88b92a1f61a5955598e8fc10dad5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bff4079b162dccd978e66760c12a10f = $(`<div id="html_0bff4079b162dccd978e66760c12a10f" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-06 14:45:00</div>`)[0];
+                popup_239a88b92a1f61a5955598e8fc10dad5.setContent(html_0bff4079b162dccd978e66760c12a10f);
+            
+        
+
+        marker_8e149768c8bd782ce56be50814691be4.bindPopup(popup_239a88b92a1f61a5955598e8fc10dad5)
+        ;
+
+        
+    
+    
+            var marker_78b8b6402cdd9b58d5a934a78c120359 = L.marker(
+                [47.66146817, -122.369692489],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_1d54548d62731b49d84d9cc9cb0b7664 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c91a2bf4a2b617bd2fbb30e5c08b72d9 = $(`<div id="html_c91a2bf4a2b617bd2fbb30e5c08b72d9" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-06 11:45:00</div>`)[0];
+                popup_1d54548d62731b49d84d9cc9cb0b7664.setContent(html_c91a2bf4a2b617bd2fbb30e5c08b72d9);
+            
+        
+
+        marker_78b8b6402cdd9b58d5a934a78c120359.bindPopup(popup_1d54548d62731b49d84d9cc9cb0b7664)
+        ;
+
+        
+    
+    
+            var marker_4998e675c52465dcc22ab1543f88a3d3 = L.marker(
+                [47.66866614, -122.374901481],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_01e16bf2ab88c37ba4d13331e8b3316a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55f0d65977e35e38567f04e0739aac0f = $(`<div id="html_55f0d65977e35e38567f04e0739aac0f" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-05 18:05:00</div>`)[0];
+                popup_01e16bf2ab88c37ba4d13331e8b3316a.setContent(html_55f0d65977e35e38567f04e0739aac0f);
+            
+        
+
+        marker_4998e675c52465dcc22ab1543f88a3d3.bindPopup(popup_01e16bf2ab88c37ba4d13331e8b3316a)
+        ;
+
+        
+    
+    
+            var marker_173022edc2782082d5b596613739484a = L.marker(
+                [47.68966673, -122.376802782],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_28326ca5eb9b0e9c4f48f3ea2a1dd3c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da3ed20dc55a9cabefe9a80102862a3f = $(`<div id="html_da3ed20dc55a9cabefe9a80102862a3f" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-04 19:38:00</div>`)[0];
+                popup_28326ca5eb9b0e9c4f48f3ea2a1dd3c6.setContent(html_da3ed20dc55a9cabefe9a80102862a3f);
+            
+        
+
+        marker_173022edc2782082d5b596613739484a.bindPopup(popup_28326ca5eb9b0e9c4f48f3ea2a1dd3c6)
+        ;
+
+        
+    
+    
+            var marker_8b4695b069a21a5192689d2d23b2a6cb = L.marker(
+                [47.68599796, -122.370396083],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_fd043da69161dffa5e958fa081ff5d21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c0990ef30bc557dcfbb7db6b117482a = $(`<div id="html_6c0990ef30bc557dcfbb7db6b117482a" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-28 14:03:00</div>`)[0];
+                popup_fd043da69161dffa5e958fa081ff5d21.setContent(html_6c0990ef30bc557dcfbb7db6b117482a);
+            
+        
+
+        marker_8b4695b069a21a5192689d2d23b2a6cb.bindPopup(popup_fd043da69161dffa5e958fa081ff5d21)
+        ;
+
+        
+    
+    
+            var marker_aa24985a49eb79ee36cf8a63d3944737 = L.marker(
+                [47.68599796, -122.370396083],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_b553212c6bd3eed4473ea4c728f493b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de118f87676402a7921f291b97b5ac1c = $(`<div id="html_de118f87676402a7921f291b97b5ac1c" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-28 14:03:00</div>`)[0];
+                popup_b553212c6bd3eed4473ea4c728f493b7.setContent(html_de118f87676402a7921f291b97b5ac1c);
+            
+        
+
+        marker_aa24985a49eb79ee36cf8a63d3944737.bindPopup(popup_b553212c6bd3eed4473ea4c728f493b7)
+        ;
+
+        
+    
+    
+            var marker_6f3e7580d7dfe76bdbdafbcc38926300 = L.marker(
+                [47.69243644, -122.374104014],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_c52477e28f7df69c543b98b2740919fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_573deba1a11745fbbb64727c7ddd8547 = $(`<div id="html_573deba1a11745fbbb64727c7ddd8547" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-26 20:14:00</div>`)[0];
+                popup_c52477e28f7df69c543b98b2740919fa.setContent(html_573deba1a11745fbbb64727c7ddd8547);
+            
+        
+
+        marker_6f3e7580d7dfe76bdbdafbcc38926300.bindPopup(popup_c52477e28f7df69c543b98b2740919fa)
+        ;
+
+        
+    
+    
+            var marker_ab08ae82d1d49937c97de630eae7b28e = L.marker(
+                [47.66366306, -122.374858623],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_ef14bbefdd46c8ea2379934bf4e3d4e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81da4f680169f063d6b83034e6404df4 = $(`<div id="html_81da4f680169f063d6b83034e6404df4" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-26 00:17:00</div>`)[0];
+                popup_ef14bbefdd46c8ea2379934bf4e3d4e2.setContent(html_81da4f680169f063d6b83034e6404df4);
+            
+        
+
+        marker_ab08ae82d1d49937c97de630eae7b28e.bindPopup(popup_ef14bbefdd46c8ea2379934bf4e3d4e2)
+        ;
+
+        
+    
+    
+            var marker_65e814699ced3cb8084ad1faf16b8bce = L.marker(
+                [47.68594342, -122.380010874],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_82d84dac8a952f54bbedee535fb2eec7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c81e86a54b0a7f762f1e76aafc49a422 = $(`<div id="html_c81e86a54b0a7f762f1e76aafc49a422" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-23 02:47:00</div>`)[0];
+                popup_82d84dac8a952f54bbedee535fb2eec7.setContent(html_c81e86a54b0a7f762f1e76aafc49a422);
+            
+        
+
+        marker_65e814699ced3cb8084ad1faf16b8bce.bindPopup(popup_82d84dac8a952f54bbedee535fb2eec7)
+        ;
+
+        
+    
+    
+            var marker_51453433daa643a96de76c30ac5e2d92 = L.marker(
+                [47.66146817, -122.369692489],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_a4647e4d0df8dc76c2b6b1cfafbb2d12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4423612b72618a3d62f9b9798e61f762 = $(`<div id="html_4423612b72618a3d62f9b9798e61f762" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-22 10:19:00</div>`)[0];
+                popup_a4647e4d0df8dc76c2b6b1cfafbb2d12.setContent(html_4423612b72618a3d62f9b9798e61f762);
+            
+        
+
+        marker_51453433daa643a96de76c30ac5e2d92.bindPopup(popup_a4647e4d0df8dc76c2b6b1cfafbb2d12)
+        ;
+
+        
+    
+    
+            var marker_7045fc1a0b1f4786bde09cccb73932c0 = L.marker(
+                [47.67018162, -122.3834381],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_801b25eea63cd35a2741b638c52f28e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd05950cc72e0a8eeaae35115f9eb250 = $(`<div id="html_dd05950cc72e0a8eeaae35115f9eb250" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-21 10:31:00</div>`)[0];
+                popup_801b25eea63cd35a2741b638c52f28e1.setContent(html_dd05950cc72e0a8eeaae35115f9eb250);
+            
+        
+
+        marker_7045fc1a0b1f4786bde09cccb73932c0.bindPopup(popup_801b25eea63cd35a2741b638c52f28e1)
+        ;
+
+        
+    
+    
+            var marker_f5d57a6adc00c2fc65651c83efa2d678 = L.marker(
+                [47.66982248, -122.387587291],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_ed430ed9e95fc55a3cf8fe3838d4a86b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cf8a330c3cf8a3f4ca7fb697492185e = $(`<div id="html_0cf8a330c3cf8a3f4ca7fb697492185e" style="width: 100.0%; height: 100.0%;">Offense: Aggravated Assault<br>Date: 2023-10-21 07:45:00</div>`)[0];
+                popup_ed430ed9e95fc55a3cf8fe3838d4a86b.setContent(html_0cf8a330c3cf8a3f4ca7fb697492185e);
+            
+        
+
+        marker_f5d57a6adc00c2fc65651c83efa2d678.bindPopup(popup_ed430ed9e95fc55a3cf8fe3838d4a86b)
+        ;
+
+        
+    
+    
+            var marker_eb036d535d8a76cc6562de0bc0964f4f = L.marker(
+                [47.66905321, -122.3735876],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_464d4c3591116fcd06759d678bf9164f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1afafc212a8f61083cffc640a5d5f8a = $(`<div id="html_b1afafc212a8f61083cffc640a5d5f8a" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-20 02:00:00</div>`)[0];
+                popup_464d4c3591116fcd06759d678bf9164f.setContent(html_b1afafc212a8f61083cffc640a5d5f8a);
+            
+        
+
+        marker_eb036d535d8a76cc6562de0bc0964f4f.bindPopup(popup_464d4c3591116fcd06759d678bf9164f)
+        ;
+
+        
+    
+    
+            var marker_3cf27b90073666d8fb68a5dc7da9a642 = L.marker(
+                [47.66097045, -122.366681802],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_2c0d3933bd0d47c8bbc3f22ac83b903b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95dda2928e94bdc1a11926e1d35b6863 = $(`<div id="html_95dda2928e94bdc1a11926e1d35b6863" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-20 06:55:00</div>`)[0];
+                popup_2c0d3933bd0d47c8bbc3f22ac83b903b.setContent(html_95dda2928e94bdc1a11926e1d35b6863);
+            
+        
+
+        marker_3cf27b90073666d8fb68a5dc7da9a642.bindPopup(popup_2c0d3933bd0d47c8bbc3f22ac83b903b)
+        ;
+
+        
+    
+    
+            var marker_408908371b3b911abea8a5ba3850c8f3 = L.marker(
+                [47.66365981, -122.3721802],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_5572f7e061fb3258f4e3aca67433e503 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79c6b3aa8d5a9d6a83ae52fd7457ce7e = $(`<div id="html_79c6b3aa8d5a9d6a83ae52fd7457ce7e" style="width: 100.0%; height: 100.0%;">Offense: Aggravated Assault<br>Date: 2023-10-17 12:15:00</div>`)[0];
+                popup_5572f7e061fb3258f4e3aca67433e503.setContent(html_79c6b3aa8d5a9d6a83ae52fd7457ce7e);
+            
+        
+
+        marker_408908371b3b911abea8a5ba3850c8f3.bindPopup(popup_5572f7e061fb3258f4e3aca67433e503)
+        ;
+
+        
+    
+    
+            var marker_8d3d703c0e933a39113d6e86a8c80242 = L.marker(
+                [47.67017314, -122.377548124],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_27ac6dea74c175fc87dd1eb379290924 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b0d87b09a7967199d03aa9037f9db7b = $(`<div id="html_6b0d87b09a7967199d03aa9037f9db7b" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-17 08:15:00</div>`)[0];
+                popup_27ac6dea74c175fc87dd1eb379290924.setContent(html_6b0d87b09a7967199d03aa9037f9db7b);
+            
+        
+
+        marker_8d3d703c0e933a39113d6e86a8c80242.bindPopup(popup_27ac6dea74c175fc87dd1eb379290924)
+        ;
+
+        
+    
+    
+            var marker_343d144007b999f4f431246aa9ff96f2 = L.marker(
+                [47.68966673, -122.376802782],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_759b86f33ba1c32ee3cd44ff2d4e8a9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae852d3c07ff1838156f43cb65e7b4c6 = $(`<div id="html_ae852d3c07ff1838156f43cb65e7b4c6" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-16 19:30:00</div>`)[0];
+                popup_759b86f33ba1c32ee3cd44ff2d4e8a9b.setContent(html_ae852d3c07ff1838156f43cb65e7b4c6);
+            
+        
+
+        marker_343d144007b999f4f431246aa9ff96f2.bindPopup(popup_759b86f33ba1c32ee3cd44ff2d4e8a9b)
+        ;
+
+        
+    
+    
+            var marker_7c1bb002c867c7abbfab0f482455c875 = L.marker(
+                [47.669819, -122.384743],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_6ac6e0f9f9f8331fe5776bbdb666bb6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ccfd89cf15df90a4dcc45d20ef9c730 = $(`<div id="html_9ccfd89cf15df90a4dcc45d20ef9c730" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-15 20:30:00</div>`)[0];
+                popup_6ac6e0f9f9f8331fe5776bbdb666bb6e.setContent(html_9ccfd89cf15df90a4dcc45d20ef9c730);
+            
+        
+
+        marker_7c1bb002c867c7abbfab0f482455c875.bindPopup(popup_6ac6e0f9f9f8331fe5776bbdb666bb6e)
+        ;
+
+        
+    
+    
+            var marker_66ddaee8c422ebce3ae5b82039f3a591 = L.marker(
+                [47.66794819, -122.380873513],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_739861c998dc403576c1ffa0426c557c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2c468725a52e3d89f165956dae9a1c8 = $(`<div id="html_e2c468725a52e3d89f165956dae9a1c8" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-13 21:36:00</div>`)[0];
+                popup_739861c998dc403576c1ffa0426c557c.setContent(html_e2c468725a52e3d89f165956dae9a1c8);
+            
+        
+
+        marker_66ddaee8c422ebce3ae5b82039f3a591.bindPopup(popup_739861c998dc403576c1ffa0426c557c)
+        ;
+
+        
+    
+    
+            var marker_b1edc2bcc360f8f4bfd9305f1cbe6326 = L.marker(
+                [47.66794819, -122.380873513],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_030ecb2df29c494d2c0008759fca0040 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9318857f164d82139b2068d466d873bf = $(`<div id="html_9318857f164d82139b2068d466d873bf" style="width: 100.0%; height: 100.0%;">Offense: Aggravated Assault<br>Date: 2023-10-13 21:36:00</div>`)[0];
+                popup_030ecb2df29c494d2c0008759fca0040.setContent(html_9318857f164d82139b2068d466d873bf);
+            
+        
+
+        marker_b1edc2bcc360f8f4bfd9305f1cbe6326.bindPopup(popup_030ecb2df29c494d2c0008759fca0040)
+        ;
+
+        
+    
+    
+            var marker_f16e97552be3c18fada494f38da34849 = L.marker(
+                [47.68966673, -122.376802782],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_0611061a33b5e876e4f69a9cab2196db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_902c6e41ffc3bad35cc3a907e5180feb = $(`<div id="html_902c6e41ffc3bad35cc3a907e5180feb" style="width: 100.0%; height: 100.0%;">Offense: Aggravated Assault<br>Date: 2023-10-13 21:26:00</div>`)[0];
+                popup_0611061a33b5e876e4f69a9cab2196db.setContent(html_902c6e41ffc3bad35cc3a907e5180feb);
+            
+        
+
+        marker_f16e97552be3c18fada494f38da34849.bindPopup(popup_0611061a33b5e876e4f69a9cab2196db)
+        ;
+
+        
+    
+    
+            var marker_1018f01ca9eaa20a2d12d5757d721479 = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_a06c92a727a81e72a53943f5fff5e7ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42995084927555e3824713b203ac77f7 = $(`<div id="html_42995084927555e3824713b203ac77f7" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-12 15:58:00</div>`)[0];
+                popup_a06c92a727a81e72a53943f5fff5e7ef.setContent(html_42995084927555e3824713b203ac77f7);
+            
+        
+
+        marker_1018f01ca9eaa20a2d12d5757d721479.bindPopup(popup_a06c92a727a81e72a53943f5fff5e7ef)
+        ;
+
+        
+    
+    
+            var marker_7d63afa278728f9f7549240411dcbda7 = L.marker(
+                [47.66794819, -122.380873513],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_f3229ee3708089abc3f1f82a4148c0e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_948599b3b6a827ecc7830c60bd8c26ad = $(`<div id="html_948599b3b6a827ecc7830c60bd8c26ad" style="width: 100.0%; height: 100.0%;">Offense: Aggravated Assault<br>Date: 2023-10-12 06:59:00</div>`)[0];
+                popup_f3229ee3708089abc3f1f82a4148c0e6.setContent(html_948599b3b6a827ecc7830c60bd8c26ad);
+            
+        
+
+        marker_7d63afa278728f9f7549240411dcbda7.bindPopup(popup_f3229ee3708089abc3f1f82a4148c0e6)
+        ;
+
+        
+    
+    
+            var marker_dcecb3535cde9446c8442fc96b73e2cf = L.marker(
+                [47.67018162, -122.383438059],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_e83cc73f17d858558609c4b26db94170 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3a22b224c0dc19b0c4c47d7d136bee0 = $(`<div id="html_b3a22b224c0dc19b0c4c47d7d136bee0" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-11 07:07:00</div>`)[0];
+                popup_e83cc73f17d858558609c4b26db94170.setContent(html_b3a22b224c0dc19b0c4c47d7d136bee0);
+            
+        
+
+        marker_dcecb3535cde9446c8442fc96b73e2cf.bindPopup(popup_e83cc73f17d858558609c4b26db94170)
+        ;
+
+        
+    
+    
+            var marker_713eb88863b6a82896ac5eae821437ca = L.marker(
+                [47.66716479, -122.377551],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_cc00d1cb1a4a2a822297377615b5160d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c108f99ae18f6dce6754f41905dfdc5a = $(`<div id="html_c108f99ae18f6dce6754f41905dfdc5a" style="width: 100.0%; height: 100.0%;">Offense: Aggravated Assault<br>Date: 2023-10-10 15:50:00</div>`)[0];
+                popup_cc00d1cb1a4a2a822297377615b5160d.setContent(html_c108f99ae18f6dce6754f41905dfdc5a);
+            
+        
+
+        marker_713eb88863b6a82896ac5eae821437ca.bindPopup(popup_cc00d1cb1a4a2a822297377615b5160d)
+        ;
+
+        
+    
+    
+            var marker_fba500025c9873f816439faa4142c468 = L.marker(
+                [47.66867106, -122.378152947],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_0427a0c7f444ce2157e45fab7ddb3417 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2d4801001634fd910b4af149b07107a = $(`<div id="html_c2d4801001634fd910b4af149b07107a" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-10 08:48:00</div>`)[0];
+                popup_0427a0c7f444ce2157e45fab7ddb3417.setContent(html_c2d4801001634fd910b4af149b07107a);
+            
+        
+
+        marker_fba500025c9873f816439faa4142c468.bindPopup(popup_0427a0c7f444ce2157e45fab7ddb3417)
+        ;
+
+        
+    
+    
+            var marker_d6b3ce00314866469fde735bab179fd7 = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_887e1028b6edc72b02c4199586f5dff4);
+        
+    
+        var popup_9461f2ced30a2fb090092970eb0830c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96db5712fa4087e7d78c5093d90805a6 = $(`<div id="html_96db5712fa4087e7d78c5093d90805a6" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-10 07:13:00</div>`)[0];
+                popup_9461f2ced30a2fb090092970eb0830c2.setContent(html_96db5712fa4087e7d78c5093d90805a6);
+            
+        
+
+        marker_d6b3ce00314866469fde735bab179fd7.bindPopup(popup_9461f2ced30a2fb090092970eb0830c2)
+        ;
+
+        
+    
+</script>
+</html>

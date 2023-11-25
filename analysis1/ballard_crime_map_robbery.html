@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3a898b14997fcb17a7b9e66c48f67181 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3a898b14997fcb17a7b9e66c48f67181" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3a898b14997fcb17a7b9e66c48f67181 = L.map(
+                "map_3a898b14997fcb17a7b9e66c48f67181",
+                {
+                    center: [47.6687, -122.3848],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_41809a551f7508d1c2329c51796ddae6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3a898b14997fcb17a7b9e66c48f67181);
+        
+    
+            var marker_03e74a035998ec53b8990a8cdcaeffa4 = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_3a898b14997fcb17a7b9e66c48f67181);
+        
+    
+        var popup_60a6442f7ea966fb0805224f2f11f233 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49f1c540d8874c4ff33353d244ae90ab = $(`<div id="html_49f1c540d8874c4ff33353d244ae90ab" style="width: 100.0%; height: 100.0%;">Offense: Robbery<br>Date: 2023-10-10 21:45:00</div>`)[0];
+                popup_60a6442f7ea966fb0805224f2f11f233.setContent(html_49f1c540d8874c4ff33353d244ae90ab);
+            
+        
+
+        marker_03e74a035998ec53b8990a8cdcaeffa4.bindPopup(popup_60a6442f7ea966fb0805224f2f11f233)
+        ;
+
+        
+    
+    
+            var marker_c7f50773c2bc2dfcd6c2d80640a72003 = L.marker(
+                [47.6622036, -122.374851541],
+                {}
+            ).addTo(map_3a898b14997fcb17a7b9e66c48f67181);
+        
+    
+        var popup_0f6cee021c01d8283059ab19a57d3d85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b53c814846068c09710b858e4d46ca6 = $(`<div id="html_6b53c814846068c09710b858e4d46ca6" style="width: 100.0%; height: 100.0%;">Offense: Robbery<br>Date: 2023-10-09 19:00:00</div>`)[0];
+                popup_0f6cee021c01d8283059ab19a57d3d85.setContent(html_6b53c814846068c09710b858e4d46ca6);
+            
+        
+
+        marker_c7f50773c2bc2dfcd6c2d80640a72003.bindPopup(popup_0f6cee021c01d8283059ab19a57d3d85)
+        ;
+
+        
+    
+    
+            var marker_bb3d02ae2883f8590f46055bedce5302 = L.marker(
+                [47.66866614, -122.374901481],
+                {}
+            ).addTo(map_3a898b14997fcb17a7b9e66c48f67181);
+        
+    
+        var popup_5bb4711f60276705310e2df900d16a82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2070747c78d54800b0814e5f4d276ca9 = $(`<div id="html_2070747c78d54800b0814e5f4d276ca9" style="width: 100.0%; height: 100.0%;">Offense: Robbery<br>Date: 2023-10-06 19:14:00</div>`)[0];
+                popup_5bb4711f60276705310e2df900d16a82.setContent(html_2070747c78d54800b0814e5f4d276ca9);
+            
+        
+
+        marker_bb3d02ae2883f8590f46055bedce5302.bindPopup(popup_5bb4711f60276705310e2df900d16a82)
+        ;
+
+        
+    
+    
+            var marker_93c0ab8147b3600e025969f6d3c91639 = L.marker(
+                [47.66862418, -122.398317854],
+                {}
+            ).addTo(map_3a898b14997fcb17a7b9e66c48f67181);
+        
+    
+        var popup_d03777167de8e14dcd243cd49ccb10ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a869063ca658f8f6d5d86c20658df2f4 = $(`<div id="html_a869063ca658f8f6d5d86c20658df2f4" style="width: 100.0%; height: 100.0%;">Offense: Robbery<br>Date: 2023-10-05 00:15:00</div>`)[0];
+                popup_d03777167de8e14dcd243cd49ccb10ce.setContent(html_a869063ca658f8f6d5d86c20658df2f4);
+            
+        
+
+        marker_93c0ab8147b3600e025969f6d3c91639.bindPopup(popup_d03777167de8e14dcd243cd49ccb10ce)
+        ;
+
+        
+    
+    
+            var marker_e2bef8883af233a851ca66646194c366 = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_3a898b14997fcb17a7b9e66c48f67181);
+        
+    
+        var popup_9fedc679455105f541a467d8cb540d34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_988cee9cab70998c35709012344e23b6 = $(`<div id="html_988cee9cab70998c35709012344e23b6" style="width: 100.0%; height: 100.0%;">Offense: Robbery<br>Date: 2023-10-03 09:00:00</div>`)[0];
+                popup_9fedc679455105f541a467d8cb540d34.setContent(html_988cee9cab70998c35709012344e23b6);
+            
+        
+
+        marker_e2bef8883af233a851ca66646194c366.bindPopup(popup_9fedc679455105f541a467d8cb540d34)
+        ;
+
+        
+    
+    
+            var marker_f5c3ea8cb55107eae634efdb1c068ed8 = L.marker(
+                [47.66365981, -122.37218016],
+                {}
+            ).addTo(map_3a898b14997fcb17a7b9e66c48f67181);
+        
+    
+        var popup_84cf3ddb34a3928dfd9f9e99296558d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16c616726299bb2918be7a8344df61dd = $(`<div id="html_16c616726299bb2918be7a8344df61dd" style="width: 100.0%; height: 100.0%;">Offense: Robbery<br>Date: 2023-09-30 11:14:00</div>`)[0];
+                popup_84cf3ddb34a3928dfd9f9e99296558d3.setContent(html_16c616726299bb2918be7a8344df61dd);
+            
+        
+
+        marker_f5c3ea8cb55107eae634efdb1c068ed8.bindPopup(popup_84cf3ddb34a3928dfd9f9e99296558d3)
+        ;
+
+        
+    
+    
+            var marker_ec8aaff4ba968e0d5a8808c82a84701b = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_3a898b14997fcb17a7b9e66c48f67181);
+        
+    
+        var popup_7f53e55357aca06fd9e3f63936fb1604 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b78da22189aa2efffe8accf38294b544 = $(`<div id="html_b78da22189aa2efffe8accf38294b544" style="width: 100.0%; height: 100.0%;">Offense: Robbery<br>Date: 2023-09-26 13:30:00</div>`)[0];
+                popup_7f53e55357aca06fd9e3f63936fb1604.setContent(html_b78da22189aa2efffe8accf38294b544);
+            
+        
+
+        marker_ec8aaff4ba968e0d5a8808c82a84701b.bindPopup(popup_7f53e55357aca06fd9e3f63936fb1604)
+        ;
+
+        
+    
+</script>
+</html>
